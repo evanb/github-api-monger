@@ -16,7 +16,7 @@ end
 
 if ENV['RACK_ENV'] == 'production'
   require 'github_api_monger/environment_variables'
-  RumourMill::EnvironmentVariables.check
+  GithubApiMonger::EnvironmentVariables.check
   # Initialise NewRelic
   require 'newrelic_rpm'
 end
