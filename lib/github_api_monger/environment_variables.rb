@@ -3,7 +3,7 @@ module GithubApiMonger
   class EnvironmentVariables
 
     REQUIRED_VARIABLES = [
-      'GITHUB_API_KEY'
+      # 'GITHUB_API_KEY'
     ]
 
     OPTIONAL_VARIABLES = [
